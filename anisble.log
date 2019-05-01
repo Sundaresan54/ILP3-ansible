@@ -1,0 +1,449 @@
+Script started on 2019-04-16 19:08:46+0530
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ cd .roles
+bash: cd: .roles: No such file or directory
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ cd .rolesscript Day12_w1.logls[Kcd ansible/Desktop/[7Pexitansible-playbook ./roles/project/serveer.yml
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [project : create folder] *************************************************
+[0;32mok: [server1][0m
+
+PLAY RECAP *********************************************************************
+[0;32mserver1[0m                    : [0;32mok=2   [0m changed=0    unreachable=0    failed=0   
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/project/serveer.yml[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Croject/server[1P.yml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Coject/server.[1Pyml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cject/server.y[1Pml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cect/server.ym[1Pl[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cct/server.yml[K[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct/server.yml [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/server.yml
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pserver.yml[1Perver.yml[1Prver.yml[1Pver.yml[1Per.yml[1Pr.yml[1P.ymln.ymlo.ymld.ymle.ymlj.ymls.yml/.ymln.yml [A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co.ymll[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd.yml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce.yml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cj.ymls.yml[C
+[0;31mERROR! A malformed role declaration was encountered.[0m
+[0;31m[0m
+[0;31mThe error appears to have been in '/home/sundaresan/Desktop/ansible/roles/nodejs/nodejs.yml': line 1, column 3, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m[0m
+[0;31m- hosts: server1[0m
+[0;31m  ^ here[0m
+[0;31m[0m
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/nodejs/nodejss.yml
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : copy tar file to nodejs folder] *********************************
+[0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: If you are using a module and expect the file to exist on the remote, see the remote_src option[0m
+[0;31mfatal: [server1]: FAILED! => {"changed": false, "msg": "Could not find or access '/home/Downloads/node-v10.15.3-linux-x64.tar.xz' on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}[0m
+	to retry, use: --limit @/home/sundaresan/Desktop/ansible/roles/nodejs/nodejs.retry
+
+PLAY RECAP *********************************************************************
+[0;31mserver1[0m                    : [0;32mok=1   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/nodejs/nodejss.yml
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : copy tar file to nodejs folder] *********************************
+[0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: If you are using a module and expect the file to exist on the remote, see the remote_src option[0m
+[0;31mfatal: [server1]: FAILED! => {"changed": false, "msg": "Could not find or access '/home/downloads/node-v10.15.3-linux-x64.tar.xz' on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}[0m
+	to retry, use: --limit @/home/sundaresan/Desktop/ansible/roles/nodejs/nodejs.retry
+
+PLAY RECAP *********************************************************************
+[0;31mserver1[0m                    : [0;32mok=1   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/nodejs/nodejss.yml
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : copy tar file to nodejs folder] *********************************
+[0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: If you are using a module and expect the file to exist on the remote, see the remote_src option[0m
+[0;31mfatal: [server1]: FAILED! => {"changed": false, "msg": "Could not find or access '/home/sundaresan/downloads/node-v10.15.3-linux-x64.tar.xz' on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}[0m
+	to retry, use: --limit @/home/sundaresan/Desktop/ansible/roles/nodejs/nodejs.retry
+
+PLAY RECAP *********************************************************************
+[0;31mserver1[0m                    : [0;32mok=1   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/nodejs/nodejss.yml
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : copy tar file to nodejs folder] *********************************
+[0;33mchanged: [server1][0m
+
+PLAY RECAP *********************************************************************
+[0;33mserver1[0m                    : [0;32mok=2   [0m [0;33mchanged=1   [0m unreachable=0    failed=0   
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/nodejs/nodejss.yml
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : copy tar file to nodejs folder] *********************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : Extract the tar file] *******************************************
+[0;31mfatal: [server1]: FAILED! => {"changed": false, "msg": "Could not find or access '/home/sundaresan/Desktop/ansilab/nodejs/node-v8.11.1-linux-x64.tar.xz' on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}[0m
+	to retry, use: --limit @/home/sundaresan/Desktop/ansible/roles/nodejs/nodejs.retry
+
+PLAY RECAP *********************************************************************
+[0;31mserver1[0m                    : [0;32mok=2   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/nodejs/nodejss.yml
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : copy tar file to nodejs folder] *********************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : Extract the tar file] *******************************************
+[0;31mfatal: [server1]: FAILED! => {"changed": false, "msg": "Could not find or access '/home/sundaresan/Desktop/ansilab/nodejs/node-v8.11.1-linux-x64.tar.xz' on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}[0m
+	to retry, use: --limit @/home/sundaresan/Desktop/ansible/roles/nodejs/nodejs.retry
+
+PLAY RECAP *********************************************************************
+[0;31mserver1[0m                    : [0;32mok=2   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/nodejs/nodejss.yml
+[0;31mERROR! Syntax Error while loading YAML.[0m
+[0;31m  did not find expected '-' indicator[0m
+[0;31m[0m
+[0;31mThe error appears to have been in '/home/sundaresan/Desktop/ansible/roles/nodejs/tasks/main.yml': line 9, column 2, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m[0m
+[0;31m - name: Extract the tar file[0m
+[0;31m ^ here[0m
+[0;31m[0m
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/nodejs/nodejss.yml
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : copy tar file to nodejs folder] *********************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : Extract the tar file] *******************************************
+[0;31mfatal: [server1]: FAILED! => {"changed": false, "msg": "Could not find or access '/home/sundaresan/Desktop/ansilab/nodejs/node-v8.11.1-linux-x64.tar.xz' on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}[0m
+	to retry, use: --limit @/home/sundaresan/Desktop/ansible/roles/nodejs/nodejs.retry
+
+PLAY RECAP *********************************************************************
+[0;31mserver1[0m                    : [0;32mok=2   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/nodejs/nodejss.yml
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : copy tar file to nodejs folder] *********************************
+[0;33mchanged: [server1][0m
+
+TASK [nodejs : Extract the tar file] *******************************************
+[0;31mfatal: [server1]: FAILED! => {"changed": false, "msg": "Could not find or access '/home/sundaresan/Desktop/ansilab/nodejs/node-v8.11.1-linux-x64.tar.xz' on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}[0m
+	to retry, use: --limit @/home/sundaresan/Desktop/ansible/roles/nodejs/nodejs.retry
+
+PLAY RECAP *********************************************************************
+[0;31mserver1[0m                    : [0;32mok=2   [0m [0;33mchanged=1   [0m unreachable=0    [0;31mfailed=1   [0m
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/nodejs/nodejss.yml
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : copy tar file to nodejs folder] *********************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : Extract the tar file] *******************************************
+[0;31mfatal: [server1]: FAILED! => {"changed": false, "msg": "Could not find or access '/home/sundaresan/Desktop/ansilab/nodejs/node-v8.11.1-linux-x64.tar.xz' on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}[0m
+	to retry, use: --limit @/home/sundaresan/Desktop/ansible/roles/nodejs/nodejs.retry
+
+PLAY RECAP *********************************************************************
+[0;31mserver1[0m                    : [0;32mok=2   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/nodejs/nodejss.yml
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : copy tar file to nodejs folder] *********************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : Extract the tar file] *******************************************
+[0;31mfatal: [server1]: FAILED! => {"changed": false, "msg": "Could not find or access '/home/sundaresan/Desktop/ansible/nodejs/node-v8.11.1-linux-x64.tar.xz' on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}[0m
+	to retry, use: --limit @/home/sundaresan/Desktop/ansible/roles/nodejs/nodejs.retry
+
+PLAY RECAP *********************************************************************
+[0;31mserver1[0m                    : [0;32mok=2   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/nodejs/nodejss.yml
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : copy tar file to nodejs folder] *********************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : Extract the tar file] *******************************************
+[0;31mfatal: [server1]: FAILED! => {"changed": false, "msg": "Could not find or access '/home/sundaresan/Desktop/ansible/nodejs/node-v8.11.1-linux-x64.tar.xz' on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}[0m
+	to retry, use: --limit @/home/sundaresan/Desktop/ansible/roles/nodejs/nodejs.retry
+
+PLAY RECAP *********************************************************************
+[0;31mserver1[0m                    : [0;32mok=2   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/nodejs/nodejss.yml
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : copy tar file to nodejs folder] *********************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : Extract the tar file] *******************************************
+[0;31mfatal: [server1]: FAILED! => {"changed": false, "msg": "Could not find or access '/home/sundaresan/Desktop/ansible/nodejs/node-v8.11.1-linux-x64.tar.xz' on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}[0m
+	to retry, use: --limit @/home/sundaresan/Desktop/ansible/roles/nodejs/nodejs.retry
+
+PLAY RECAP *********************************************************************
+[0;31mserver1[0m                    : [0;32mok=2   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/nodejs/nodejss.yml
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : copy tar file to nodejs folder] *********************************
+[0;32mok: [server1][0m
+
+TASK [nodejs : Extract the tar file] *******************************************
+[0;33mchanged: [server1][0m
+
+PLAY RECAP *********************************************************************
+[0;33mserver1[0m                    : [0;32mok=3   [0m [0;33mchanged=1   [0m unreachable=0    failed=0   
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-galaxy init ./[Kroles/roles[C[C[C[C[C/r[Ktomcat/
+- ./roles/tomcat/ was created successfully
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ mkdir tomc=[Kcat[1Pat
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ls ../downk[Kloads
+ls: cannot access '../downloads': No such file or directory
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ls ../downloads.downloads.downloads/downloads
+ls: cannot access '../../downloads': No such file or directory
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ls ../../downloads[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls ../downloads[3Pmkdir tomcatansible-galaxy init ./roles/tomcat/playbook ./roles/nodejs/nodejss.yml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cproject/server.yml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ cd .roles[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cansible-playbook ./roles/project/serveer.yml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ cd .roles[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript Day12_w1.logls[Kcd ansible/ls[Kscript Day12_w1.log[10Pcd .rolesansible-playbook ./roles/project/serveer.yml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnodejs/nodejs[1P.yml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[2Pgalaxy init ./roles/tomcat/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cplaybook ./roles/nodejs/nodejss.yml[1P.yml[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.y[1Pml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.ym[1Pl[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.yml[K[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.yml [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.yml
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct.yml [A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co.ymll[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm.yml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc.yml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca.ymlt.yml[C
+[0;31mERROR! the playbook: ./roles/nodejs/tomcat.yml could not be found[0m
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/nodejs/tomcatt.yml[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/tomcat.[1Pyml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/tomcat.y[1Pml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/tomcat.ym[1Pl[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/tomcat.yml[K[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/tomcat.yml [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/tomcat.yml
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct/tomcat.yml [A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co/tomcat.ymll[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm/tomcat.yml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc/tomcat.yml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca/tomcat.yml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct/tomcat.yml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [tomcat : copy tar file to tomcat folder] *********************************
+[0;33mchanged: [server1][0m
+
+TASK [tomcat : Extract the tar file] *******************************************
+[0;33mchanged: [server1][0m
+
+PLAY RECAP *********************************************************************
+[0;33mserver1[0m                    : [0;32mok=3   [0m [0;33mchanged=2   [0m unreachable=0    failed=0   
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ rm/[K -rf tomcat/*
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ cp /home/sundaresan/D[Kdo[K[KDownloads/apache-ttomcat-7.0.93.tar.gz [K /home/sundaresan/ans[K[K[KDesktop/ansible/roles/tomcat/files/
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ la[Ks
+ansible.cfg   Day13_w1.log  inventory.txt   resolv.yml  [0m[01;34mtestfolder[0m
+[01;34mansilab[0m       echo.yaml     [01;34mnodejs[0m          [01;34mresource[0m    [01;34mtestfolder1[0m
+Day11_w1.log  file1.yml     playBook.retry  [01;34mroles[0m       [01;34mtestfolder2[0m
+Day11_w2.log  file2.yml     playBook.yml    testfile    [01;34mtomcat[0m
+Day12_w1.log  hostname.yml  resolv.retry    testFile1
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ls /home//sundaresan/[K[K[K[K[K[K[K[K[K[K[K[Ksundaresan/de[K[K[K/Desktop/ansible/r oles/tomcat/files/
+[0m[01;31mapache-tomcat-7.0.93.tar.gz[0m
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ cat ./roles/tomcat/tasks/main.yml 
+---
+# tasks file for ./roles/tomcat/
+- name: copy tar file to tomcat folder
+  copy:
+    src: /home/sundaresan/Downloads/apache-tomcat-7.0.93.tar.gz
+    dest: /home/sundaresan/Desktop/ansible/tomcat
+
+- name: Extract the tar file
+  unarchive:
+    src: /home/sundaresan/Desktop/ansible/tomcat/apache-tomcat-7.0.93.tar.gz
+    dest: /home/sundaresan/Desktop/ansible/tomcat
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ cat ./roles/tomcat/tasks/main.yml ls /home/sundaresan/Desktop/ansible/rooles/tomcat/files/[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp /home/sundaresan/Downloads/apache-ttomcat-7.0.93.tar.gz /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[22Prm -rf tomcat/*
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cansible-playbook ./roles/tomcat/tomcatt.yml
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [tomcat : copy tar file to tomcat folder] *********************************
+[0;33mchanged: [server1][0m
+
+TASK [tomcat : Extract the tar file] *******************************************
+[0;33mchanged: [server1][0m
+
+PLAY RECAP *********************************************************************
+[0;33mserver1[0m                    : [0;32mok=3   [0m [0;33mchanged=2   [0m unreachable=0    failed=0   
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/tomcat/tomcatt.yml[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [3Pcat ./roles/tomcat/tasks/main.yml 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls /home/sundaresan/Desktop/ansible/rooles/tomcat/files/[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp /home/sundaresan/Downloads/apache-ttomcat-7.0.93.tar.gz /home/sundaresan/Desktop/ansible/roles/tomcat/files/[1P /home/sundaresan/Desktop/ansible/roles/tomcat/files/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/sundaresan/Desktop/ansible/roles/tomcat/files/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/sundaresan/Desktop/ansible/roles/tomcat/files/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/sundaresan/Desktop/ansible/roles/tomcat/files/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/sundaresan/Desktop/ansible/roles/tomcat/files/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/sundaresan/Desktop/ansible/roles/tomcat/files/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/sundaresan/Desktop/ansible/roles/tomcat/files/[C[C[C[C[C[C[C[C[C[C[C[C[C/ /home/sundaresan/Desktop/ansible/roles/tomcat/files/[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc /home/sundaresan/Desktop/ansible/roles/tomcat/files/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /home/sundaresan/Desktop/ansible/roles/tomcat/files/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@o[1@n[1@f[1@/[1@s[1@e[1@r[1@v[1@e[1@r.  /home/sundaresan/Desktop/ansible/roles/tomcat/files/ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cx  /home/sundaresan/Desktop/ansible/roles/tomcat/files//[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files[1P/[A[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[K[A[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/ [K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/apache-tomca[1P
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/apache-tomcat[1P[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/apache-tomcat-[1P[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/apache-tomcat-7[1P[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/apache-tomcat-7.[1P[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce/apache-tomcat-7[1@.[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs/apache-tomcat-[1@7[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ck/apache-tomcat[1@-[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct/apache-tomca[1@t[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/ [A[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files//[A[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files[1P/[A[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/file[1Ps/[A[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[A]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[Ao/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[Cm/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[C[Cc/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[C[C[Ca/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[C[C[C[Ct/apache-tomcat-7.0.93/conf/server.xml  /home/sundaresan/Desktop/ansible/roles/tomcat/files/[A[C[C[C[C[C
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ cat server.xm;l[K[Kl
+cat: server.xml: No such file or directory
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./rolews[K[Kss/[K[K/tomcat//tomcaat.yml 
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [tomcat : Extract tomcat tar file] ****************************************
+[0;32mok: [server1][0m
+
+TASK [tomcat : Change the tomcat port] *****************************************
+[0;31mfatal: [server1]: FAILED! => {"changed": false, "checksum": "7d0abc0d95958be5e93a204a97a36f6c604b3942", "msg": "Destination directory /home/sundatesan/Desktop/ansible/tomcat/apache-tomcat-7.0.93/conf does not exist"}[0m
+	to retry, use: --limit @/home/sundaresan/Desktop/ansible/roles/tomcat/tomcat.retry
+
+PLAY RECAP *********************************************************************
+[0;31mserver1[0m                    : [0;32mok=2   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/tomcat//tomcaat.yml 
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [tomcat : Extract tomcat tar file] ****************************************
+[0;32mok: [server1][0m
+
+TASK [tomcat : Change the tomcat port] *****************************************
+[0;33mchanged: [server1][0m
+
+PLAY RECAP *********************************************************************
+[0;33mserver1[0m                    : [0;32mok=3   [0m [0;33mchanged=1   [0m unreachable=0    failed=0   
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/tomcat//tomcaat.yml 
+[0;31mERROR! Syntax Error while loading YAML.[0m
+[0;31m  did not find expected '-' indicator[0m
+[0;31m[0m
+[0;31mThe error appears to have been in '/home/sundaresan/Desktop/ansible/roles/tomcat/tasks/main.yml': line 13, column 1, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m- name: Start tomcat service[0m
+[0;31mshell: /home/sundaresan/Desktop/ansible/tomcat/apache-tomcat-7.0.93/bin/startup.sh[0m
+[0;31m^ here[0m
+[0;31m[0m
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/tomcat//tomcaat.yml 
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [tomcat : Extract tomcat tar file] ****************************************
+[0;33mchanged: [server1][0m
+
+TASK [tomcat : Change the tomcat port] *****************************************
+[0;33mchanged: [server1][0m
+
+TASK [tomcat : Start tomcat service] *******************************************
+[0;33mchanged: [server1][0m
+
+PLAY RECAP *********************************************************************
+[0;33mserver1[0m                    : [0;32mok=4   [0m [0;33mchanged=3   [0m unreachable=0    failed=0   
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ansible-playbook ./roles/tomcat//tomcaat.yml 
+
+PLAY [server1] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [server1][0m
+
+TASK [tomcat : Extract tomcat tar file] ****************************************
+[0;33mchanged: [server1][0m
+
+TASK [tomcat : Change the tomcat port] *****************************************
+[0;33mchanged: [server1][0m
+
+RUNNING HANDLER [tomcat : Start tomcat service] ********************************
+[0;33mchanged: [server1][0m
+
+PLAY RECAP *********************************************************************
+[0;33mserver1[0m                    : [0;32mok=4   [0m [0;33mchanged=3   [0m unreachable=0    failed=0   
+
+]0;sundaresan@SundarLaptop: ~/Desktop/ansible[01;32msundaresan@SundarLaptop[00m:[01;34m~/Desktop/ansible[00m$ ifconfig 
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        ether 02:42:53:db:b9:17  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eno1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 3c:a8:2a:b1:b7:c5  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 452  bytes 38793 (38.7 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 452  bytes 38793 (38.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.112  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::21a9:9de0:36a0:60eb  prefixlen 64  scopeid 0x20<link>
+        ether 70:77:81:5c:87:d3  txqueuelen 1000  (Ethernet)
+        RX packets 39966  bytes 58232350 (58.2 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 13804  bytes 1433816 (1.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;sun

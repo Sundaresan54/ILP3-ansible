@@ -1,0 +1,23 @@
+---
+# tasks file for roles/nodejs
+- name: copy tar file to tomcat folder
+  copy:
+    src: /home/sundaresan/Downloads/apache-tomcat-7.0.93.tar.gz
+    dest: /home/sundaresan/Desktop/ansible/tomcat
+
+- name: Extract the tar file
+  unarchive:
+    src: /home/sundaresan/Desktop/ansible/tomcat/apache-tomcat-7.0.93.tar.gz
+    dest: /home/sundaresan/Desktop/ansible/tomcat
+    mode: u+rwx
+
+- name: copy tar file to tomcat folder
+  copy:
+    src: /home/sundaresan/Desktop/my-app/build
+    dest: /home/sundaresan/Desktop/ansible/tomcat/apache-tomcat-7.0.93/webapps/ROOT
+
+- name: Change the tomcat port
+  template:
+    src: server.xml.j2
+    dest: "{{tomcat_home}}/conf/server.xml"
+  notify: Start tomcat service
